@@ -1,0 +1,236 @@
+
+#visibility {
+    position: relative;
+    min-height: 600px;
+    padding: 70px 5% 50px;
+    background: linear-gradient(to bottom, #bfe7ff 0%, #e9f8ff 60%, #ffffff 100%);
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+}
+
+.visibility-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.visibility-text {
+    flex: 1 1 400px;
+    max-width: 400px;
+}
+
+.visibility-graph {
+    flex: 1 1 400px;
+    max-width: 800px;
+    position: relative;
+    padding-bottom: 60%;
+}
+
+#visibilityGraph svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: visible;
+}
+
+#visibility h2 {
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+    color: #18085e;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(75, 89, 158, 0.4);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+    text-align: left;
+}
+
+#visibility .scene-intro {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: #204d57;
+    text-shadow: 0 2px 6px rgba(255,255,255,0.25);
+    background: rgba(255,255,255,0.05);
+    padding: 0px 18px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+
+#visibility .interpretation {
+    font-size: 1.05rem;
+    background: rgba(255,255,255,0.75);
+    padding: 12px 18px;
+    display: inline-block;
+    border-radius: 10px;
+    border-left: 4px solid #6bb4b3;
+    backdrop-filter: blur(4px);
+    margin-top: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.8s ease-out;
+}
+
+#visibility.visible h2,
+#visibility.visible .scene-intro,
+#visibility.visible .interpretation {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.visibility-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+    overflow: visible;
+}
+
+.cloud-layer {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-image: url('../../sprites/Cloud.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+}
+
+#cloud1 { top: 0px; left: 1000px; height: 500px; }
+#cloud2 { top: 250px; left: -820px; height: 600px; }
+#cloud3 { top: 700px; left: 900px; height: 550px; }
+
+.chart-title {
+    font-size: 0.6rem;
+    font-weight: 600;
+    fill: #143642;
+    text-anchor: middle;
+    text-shadow: 0 1px 3px rgba(255,255,255,0.3);
+    font-family: "Inter", sans-serif;
+}
+
+.x-axis path,
+.x-axis line,
+.y-axis path,
+.y-axis line,
+.y-axis.visits-axis path,
+.y-axis.visits-axis line {
+    stroke: #999;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.x-axis text,
+.y-axis text,
+.y-axis.visits-axis text {
+    fill: #143642;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+}
+
+.x-axis-title,
+.y-axis-title {
+    font-weight: 600;
+    fill: #143642;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2;
+}
+
+.visits-area {
+    fill: url(#visitsOpacityGradient);
+    opacity: 0.7;
+}
+
+.visits-area-outline {
+    fill: none;
+    stroke: darkgreen;
+    stroke-width: 1.5;
+    opacity: 0.9;
+}
+
+.vis-focus .focus-xline {
+    stroke: #999;
+    stroke-width: 1;
+    stroke-dasharray: 3,3;
+    opacity: 0.6;
+}
+
+.visibility-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    display: none;
+    z-index: 5;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    line-height: 1.4;
+}
+
+.hover-overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+#visibilityGraph .grid line {
+    stroke: #e0f0f5;
+    stroke-opacity: 0.6;
+    shape-rendering: crispEdges;
+}
+
+#visibilityGraph .grid path {
+    stroke-width: 0;
+}
+
+
+@media (max-width: 992px) {
+    .visibility-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .visibility-text,
+    .visibility-graph {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .chart-title {
+        font-size: 1.2rem;
+    }
+    .x-axis text,
+    .y-axis text {
+        font-size: 10px;
+    }
+    .x-axis-title,
+    .y-axis-title {
+        font-size: 11px;
+    }
+}

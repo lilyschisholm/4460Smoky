@@ -1,0 +1,74 @@
+{
+    "years": [
+        {
+            "Year": 2001,
+            "Total Animals Spotted": 39
+        },
+        {
+            "Year": 2002,
+            "Total Animals Spotted": 8
+        },
+        {
+            "Year": 2003,
+            "Total Animals Spotted": 22
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 17
+        },
+        {
+            "Year": 2005,
+            "Total Animals Spotted": 4
+        },
+        {
+            "Year": 2006,
+            "Total Animals Spotted": 17
+        },
+        {
+            "Year": 2013,
+            "Total Animals Spotted": 1
+        }
+    ],
+    "layers": [
+        {
+            "Year": 2001,
+            "Gray-foot Lancetooth": 14,
+            "Grand Globe": 14,
+            "Mountain Button": 11
+        },
+        {
+            "Year": 2002,
+            "Gray-foot Lancetooth": 4,
+            "Grand Globe": 3,
+            "Mountain Button": 1
+        },
+        {
+            "Year": 2003,
+            "Gray-foot Lancetooth": 8,
+            "Grand Globe": 7,
+            "Mountain Button": 7
+        },
+        {
+            "Year": 2004,
+            "Gray-foot Lancetooth": 4,
+            "Grand Globe": 4,
+            "Mountain Button": 9
+        },
+        {
+            "Year": 2005,
+            "Gray-foot Lancetooth": 1,
+            "Grand Globe": 1,
+            "Mountain Button": 2
+        },
+        {
+            "Year": 2006,
+            "Gray-foot Lancetooth": 6,
+            "Grand Globe": 5,
+            "Mountain Button": 6
+        },
+        {
+            "Year": 2013,
+            "Grand Globe": 1
+        }
+    ]
+}

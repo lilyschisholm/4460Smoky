@@ -1,0 +1,316 @@
+
+@import "base/_typography.css";
+
+@import "layout/_header.css";
+@import "layout/_footer.css";
+@import "layout/_main.css";
+
+@import "components/_charts.css";
+@import "components/_interpretation.css";
+@import "components/_narrative.css";
+@import "components/scrollToTopBtn.css";
+@import "components/fish.css";
+
+/* Sections */
+@import "sections/_intro.css";
+@import "sections/_visibility.css"; 
+@import "sections/_water.css";
+
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    width: 100%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img, svg, iframe, .chart-placeholder {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.break-out {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+body > * {
+    max-width: 100%;
+}
+
+
+#stacked-area, #timeline {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#timeline {
+    height: 150px;
+    width: 100%;
+}
+
+#stacked-area {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+
+#biodiversity {
+    padding: 50px;
+    background-image: url('../sprites/bears.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 23vw;
+    padding-right: 23vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    overflow: hidden; 
+}
+
+.biodiversityItem {
+    box-shadow: 5px 5px 10px 2px rgb(59, 59, 59);
+} 
+
+.fish-animation {
+    position: absolute;
+    z-index: 101;
+    pointer-events: none;
+    will-change: transform;
+    transition: transform 0.1s linear;
+    right: 10%;
+}
+
+#fish1 { 
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    background-image: url('../sprites/trout.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+}
+#fish2 { 
+    width: 200px;
+    height: 200px; 
+    margin-top: 80px;
+    background-image: url('../sprites/trout2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+}
+#fish3 { 
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 300px;
+    background-image: url('../sprites/trout3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+} 
+#fish4 { 
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 500px;
+    background-image: url('../sprites/trout.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+}
+#fish5 { 
+    width: 200px;
+    height: 200px; 
+    margin-top: 260px;
+    margin-left: 50px;
+    background-image: url('../sprites/trout2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+}
+#fish6 { 
+    width: 200px;
+    height: 200px;
+    margin-top: 440px;
+    margin-left: 30px;
+    background-image: url('../sprites/trout3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+} 
+
+#nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    z-index: 100;
+    margin-left: 95vw;
+    margin-top: 20vh;
+}
+
+#visibility {
+    padding: 70px;
+    margin-bottom: 50px;
+}
+
+#water {
+    padding: 50px;
+}
+
+#visits {
+    padding: 50px;
+}
+
+#comparison {
+    padding: 50px;
+    background-image: url(../sprites/birds.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 23vw;
+    padding-right: 23vw;
+}
+
+.comparisonText {
+    text-shadow: 1px 1px 1px rgb(59, 59, 59);
+    color: white;
+}
+
+#comparisonVis {
+    box-shadow: 5px 5px 10px rgb(59, 59, 59);
+}
+
+
+#conclusion {
+    padding: 50px;
+}
+
+.biodiversityText {
+    color: white;
+    text-shadow: 2px 2px 2px rgb(59, 59, 59);
+}
+
+/* --- Section: Visitors (mountain theme) --- */
+#visits {
+    position: relative;
+    padding: 120px 0 320px 0;
+    background: linear-gradient(180deg, #f7fbff 0%, #e4f2fc 40%, #cde2ef 100%);
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Mountain Layers */
+#visits::before,
+#visits::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 280px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: cover;
+    z-index: 0;
+}
+
+#visits::before {
+    background-image: url('../sprites/mountains-back.svg');
+    opacity: 0.65;
+    background-attachment: scroll;
+}
+
+#visits::after {
+    background-image: url('../sprites/mountains-front.svg');
+    opacity: 0.9;
+    background-attachment: scroll;
+}
+
+/* Animations for parallax scrolling */
+@keyframes moveMountainsBack {
+    from { background-position-x: 0; }
+    to { background-position-x: 1000px; }
+}
+@keyframes moveMountainsFront {
+    from { background-position-x: 1000px; }
+    to { background-position-x: 0; }
+}
+
+/* Chart container styling */
+#visitsVis {
+    position: relative;
+    z-index: 5;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+#visits h2, #visits p {
+    position: relative;
+    z-index: 5;
+}
+
+
+.person {
+    position: absolute;
+    left: var(--x);
+    bottom: 0px;
+    width: 10px;
+    height: 24px;
+    background: #2b3a42;
+    border-radius: 2px;
+    z-index: 10;
+    animation: walkHorizontal 12s ease-in-out infinite, sway 3s ease-in-out infinite;
+    animation-delay: var(--delay);
+    transform-origin: bottom center;
+    opacity: 0.95;
+}
+
+.person::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 2px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2b3a42;
+}
+
+@keyframes walkHorizontal {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(60px); }  /* more distance */
+    100% { transform: translateX(0); }
+}
+
+
+

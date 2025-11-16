@@ -1,0 +1,93 @@
+{
+    "years": [
+        {
+            "Year": 1991,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1999,
+            "Total Animals Spotted": 15
+        },
+        {
+            "Year": 2000,
+            "Total Animals Spotted": 48
+        },
+        {
+            "Year": 2001,
+            "Total Animals Spotted": 57
+        },
+        {
+            "Year": 2002,
+            "Total Animals Spotted": 46
+        },
+        {
+            "Year": 2003,
+            "Total Animals Spotted": 4
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 10
+        },
+        {
+            "Year": 2007,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 2008,
+            "Total Animals Spotted": 1
+        }
+    ],
+    "layers": [
+        {
+            "Year": 1991,
+            "Southern Red-backed Vole": 1
+        },
+        {
+            "Year": 1999,
+            "Deer Mouse": 9,
+            "White-footed Mouse": 2,
+            "Northern Short-tailed Shrew": 4
+        },
+        {
+            "Year": 2000,
+            "Deer Mouse": 23,
+            "White-footed Mouse": 8,
+            "Northern Short-tailed Shrew": 8,
+            "Southern Red-backed Vole": 9
+        },
+        {
+            "Year": 2001,
+            "Deer Mouse": 27,
+            "White-footed Mouse": 11,
+            "Northern Short-tailed Shrew": 9,
+            "Southern Red-backed Vole": 10
+        },
+        {
+            "Year": 2002,
+            "Deer Mouse": 23,
+            "White-footed Mouse": 8,
+            "Northern Short-tailed Shrew": 5,
+            "Southern Red-backed Vole": 10
+        },
+        {
+            "Year": 2003,
+            "Deer Mouse": 1,
+            "White-footed Mouse": 1,
+            "Northern Short-tailed Shrew": 1,
+            "Southern Red-backed Vole": 1
+        },
+        {
+            "Year": 2004,
+            "White-footed Mouse": 7,
+            "Northern Short-tailed Shrew": 3
+        },
+        {
+            "Year": 2007,
+            "Northern Short-tailed Shrew": 1
+        },
+        {
+            "Year": 2008,
+            "Northern Short-tailed Shrew": 1
+        }
+    ]
+}

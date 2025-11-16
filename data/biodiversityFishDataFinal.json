@@ -1,0 +1,631 @@
+{
+    "years": [
+        {
+            "Year": 1932,
+            "Total Animals Spotted": 26
+        },
+        {
+            "Year": 1937,
+            "Total Animals Spotted": 136
+        },
+        {
+            "Year": 1939,
+            "Total Animals Spotted": 10
+        },
+        {
+            "Year": 1940,
+            "Total Animals Spotted": 76
+        },
+        {
+            "Year": 1941,
+            "Total Animals Spotted": 14
+        },
+        {
+            "Year": 1953,
+            "Total Animals Spotted": 17
+        },
+        {
+            "Year": 1954,
+            "Total Animals Spotted": 33
+        },
+        {
+            "Year": 1957,
+            "Total Animals Spotted": 37
+        },
+        {
+            "Year": 1968,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1971,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1977,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 1978,
+            "Total Animals Spotted": 9
+        },
+        {
+            "Year": 1979,
+            "Total Animals Spotted": 90
+        },
+        {
+            "Year": 1980,
+            "Total Animals Spotted": 51
+        },
+        {
+            "Year": 1981,
+            "Total Animals Spotted": 24
+        },
+        {
+            "Year": 1982,
+            "Total Animals Spotted": 19
+        },
+        {
+            "Year": 1983,
+            "Total Animals Spotted": 26
+        },
+        {
+            "Year": 1984,
+            "Total Animals Spotted": 42
+        },
+        {
+            "Year": 1985,
+            "Total Animals Spotted": 53
+        },
+        {
+            "Year": 1986,
+            "Total Animals Spotted": 22
+        },
+        {
+            "Year": 1987,
+            "Total Animals Spotted": 20
+        },
+        {
+            "Year": 1988,
+            "Total Animals Spotted": 79
+        },
+        {
+            "Year": 1989,
+            "Total Animals Spotted": 99
+        },
+        {
+            "Year": 1990,
+            "Total Animals Spotted": 27
+        },
+        {
+            "Year": 2002,
+            "Total Animals Spotted": 107
+        },
+        {
+            "Year": 2003,
+            "Total Animals Spotted": 286
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 48
+        },
+        {
+            "Year": 2006,
+            "Total Animals Spotted": 99
+        },
+        {
+            "Year": 2009,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 2010,
+            "Total Animals Spotted": 42
+        },
+        {
+            "Year": 2011,
+            "Total Animals Spotted": 13
+        },
+        {
+            "Year": 2013,
+            "Total Animals Spotted": 2
+        }
+    ],
+    "layers": [
+        {
+            "Year": 1932,
+            "Northern Hog Sucker": 4,
+            "Central Stoneroller": 5,
+            "Smallmouth Bass": 1,
+            "Eastern Blacknose Dace": 3,
+            "Brook Trout": 1,
+            "Saffron Shiner": 3,
+            "River Chub": 2,
+            "Warpaint Shiner": 4,
+            "Longnose Dace": 3
+        },
+        {
+            "Year": 1937,
+            "Northern Hog Sucker": 14,
+            "Telescope Shiner": 5,
+            "Redline Darter": 3,
+            "Greenfin Darter": 5,
+            "Smoky Dace": 5,
+            "Whitetail Shiner": 7,
+            "Tennessee Shiner": 9,
+            "Central Stoneroller": 14,
+            "Gilt Darter": 4,
+            "Smallmouth Bass": 8,
+            "Creek Chub": 3,
+            "Eastern Blacknose Dace": 9,
+            "Brook Trout": 2,
+            "Saffron Shiner": 5,
+            "Rainbow Trout": 6,
+            "Rock Bass": 5,
+            "River Chub": 13,
+            "Warpaint Shiner": 11,
+            "Longnose Dace": 8
+        },
+        {
+            "Year": 1939,
+            "Northern Hog Sucker": 1,
+            "Telescope Shiner": 1,
+            "Redline Darter": 1,
+            "Greenfin Darter": 1,
+            "Whitetail Shiner": 1,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 1,
+            "Smallmouth Bass": 1,
+            "River Chub": 1,
+            "Warpaint Shiner": 1
+        },
+        {
+            "Year": 1940,
+            "Northern Hog Sucker": 8,
+            "Telescope Shiner": 3,
+            "Greenfin Darter": 1,
+            "Smoky Dace": 2,
+            "Whitetail Shiner": 3,
+            "Tennessee Shiner": 2,
+            "Central Stoneroller": 11,
+            "Gilt Darter": 1,
+            "Smallmouth Bass": 1,
+            "Creek Chub": 2,
+            "Eastern Blacknose Dace": 8,
+            "Brook Trout": 4,
+            "Saffron Shiner": 2,
+            "Rainbow Trout": 10,
+            "Rock Bass": 2,
+            "River Chub": 5,
+            "Warpaint Shiner": 2,
+            "Longnose Dace": 9
+        },
+        {
+            "Year": 1941,
+            "Northern Hog Sucker": 2,
+            "Telescope Shiner": 2,
+            "Redline Darter": 1,
+            "Greenfin Darter": 1,
+            "Whitetail Shiner": 1,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 1,
+            "Smallmouth Bass": 2,
+            "Rock Bass": 2,
+            "River Chub": 1
+        },
+        {
+            "Year": 1953,
+            "Northern Hog Sucker": 1,
+            "Whitetail Shiner": 1,
+            "Tennessee Shiner": 2,
+            "Central Stoneroller": 2,
+            "Smallmouth Bass": 1,
+            "Eastern Blacknose Dace": 1,
+            "Saffron Shiner": 1,
+            "Rock Bass": 1,
+            "River Chub": 2,
+            "Warpaint Shiner": 2,
+            "Longnose Dace": 3
+        },
+        {
+            "Year": 1954,
+            "Northern Hog Sucker": 2,
+            "Greenfin Darter": 2,
+            "Smoky Dace": 2,
+            "Whitetail Shiner": 1,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 4,
+            "Gilt Darter": 1,
+            "Eastern Blacknose Dace": 1,
+            "Brook Trout": 1,
+            "Saffron Shiner": 3,
+            "Rainbow Trout": 4,
+            "Rock Bass": 1,
+            "River Chub": 3,
+            "Warpaint Shiner": 2,
+            "Longnose Dace": 5
+        },
+        {
+            "Year": 1957,
+            "Northern Hog Sucker": 3,
+            "Telescope Shiner": 2,
+            "Redline Darter": 3,
+            "Greenfin Darter": 3,
+            "Smoky Dace": 1,
+            "Whitetail Shiner": 3,
+            "Tennessee Shiner": 2,
+            "Central Stoneroller": 4,
+            "Smallmouth Bass": 1,
+            "Creek Chub": 2,
+            "Eastern Blacknose Dace": 2,
+            "Brook Trout": 1,
+            "Rainbow Trout": 2,
+            "Rock Bass": 2,
+            "River Chub": 3,
+            "Warpaint Shiner": 3
+        },
+        {
+            "Year": 1968,
+            "Smoky Dace": 1
+        },
+        {
+            "Year": 1971,
+            "Greenfin Darter": 1
+        },
+        {
+            "Year": 1977,
+            "Central Stoneroller": 1,
+            "Saffron Shiner": 1
+        },
+        {
+            "Year": 1978,
+            "Brown Trout": 1,
+            "Redline Darter": 1,
+            "Greenfin Darter": 1,
+            "Central Stoneroller": 2,
+            "River Chub": 1,
+            "Warpaint Shiner": 1,
+            "Longnose Dace": 2
+        },
+        {
+            "Year": 1979,
+            "Northern Hog Sucker": 7,
+            "Telescope Shiner": 6,
+            "Brown Trout": 3,
+            "Redline Darter": 5,
+            "Smoky Dace": 3,
+            "Whitetail Shiner": 4,
+            "Tennessee Shiner": 6,
+            "Central Stoneroller": 9,
+            "Gilt Darter": 1,
+            "Smallmouth Bass": 1,
+            "Creek Chub": 3,
+            "Eastern Blacknose Dace": 9,
+            "Brook Trout": 2,
+            "Rainbow Trout": 4,
+            "Rock Bass": 4,
+            "River Chub": 10,
+            "Warpaint Shiner": 7,
+            "Longnose Dace": 6
+        },
+        {
+            "Year": 1980,
+            "Northern Hog Sucker": 4,
+            "Telescope Shiner": 3,
+            "Brown Trout": 1,
+            "Redline Darter": 3,
+            "Greenfin Darter": 3,
+            "Smoky Dace": 1,
+            "Whitetail Shiner": 2,
+            "Tennessee Shiner": 4,
+            "Central Stoneroller": 6,
+            "Smallmouth Bass": 3,
+            "Eastern Blacknose Dace": 2,
+            "Saffron Shiner": 1,
+            "Rainbow Trout": 6,
+            "Rock Bass": 3,
+            "River Chub": 4,
+            "Warpaint Shiner": 2,
+            "Longnose Dace": 3
+        },
+        {
+            "Year": 1981,
+            "Northern Hog Sucker": 3,
+            "Brown Trout": 3,
+            "Greenfin Darter": 1,
+            "Smoky Dace": 1,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 4,
+            "Smallmouth Bass": 2,
+            "Creek Chub": 1,
+            "Eastern Blacknose Dace": 2,
+            "Saffron Shiner": 1,
+            "Rainbow Trout": 1,
+            "Rock Bass": 1,
+            "River Chub": 1,
+            "Warpaint Shiner": 1,
+            "Longnose Dace": 1
+        },
+        {
+            "Year": 1982,
+            "Northern Hog Sucker": 2,
+            "Telescope Shiner": 1,
+            "Redline Darter": 1,
+            "Greenfin Darter": 1,
+            "Smoky Dace": 1,
+            "Whitetail Shiner": 1,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 2,
+            "Smallmouth Bass": 1,
+            "Eastern Blacknose Dace": 1,
+            "Rainbow Trout": 2,
+            "Rock Bass": 1,
+            "River Chub": 1,
+            "Warpaint Shiner": 1,
+            "Longnose Dace": 2
+        },
+        {
+            "Year": 1983,
+            "Northern Hog Sucker": 3,
+            "Brown Trout": 4,
+            "Greenfin Darter": 1,
+            "Smoky Dace": 1,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 4,
+            "Gilt Darter": 1,
+            "Eastern Blacknose Dace": 1,
+            "Rainbow Trout": 4,
+            "River Chub": 3,
+            "Longnose Dace": 3
+        },
+        {
+            "Year": 1984,
+            "Northern Hog Sucker": 5,
+            "Telescope Shiner": 1,
+            "Brown Trout": 2,
+            "Redline Darter": 1,
+            "Smoky Dace": 2,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 4,
+            "Smallmouth Bass": 2,
+            "Creek Chub": 1,
+            "Eastern Blacknose Dace": 2,
+            "Brook Trout": 3,
+            "Rainbow Trout": 7,
+            "Rock Bass": 3,
+            "River Chub": 4,
+            "Warpaint Shiner": 2,
+            "Longnose Dace": 2
+        },
+        {
+            "Year": 1985,
+            "Northern Hog Sucker": 5,
+            "Telescope Shiner": 2,
+            "Brown Trout": 4,
+            "Redline Darter": 1,
+            "Greenfin Darter": 2,
+            "Smoky Dace": 2,
+            "Whitetail Shiner": 3,
+            "Tennessee Shiner": 3,
+            "Central Stoneroller": 4,
+            "Gilt Darter": 1,
+            "Smallmouth Bass": 1,
+            "Creek Chub": 3,
+            "Eastern Blacknose Dace": 3,
+            "Rainbow Trout": 8,
+            "Rock Bass": 1,
+            "River Chub": 4,
+            "Warpaint Shiner": 4,
+            "Longnose Dace": 2
+        },
+        {
+            "Year": 1986,
+            "Northern Hog Sucker": 2,
+            "Brown Trout": 1,
+            "Greenfin Darter": 1,
+            "Smoky Dace": 1,
+            "Whitetail Shiner": 1,
+            "Central Stoneroller": 1,
+            "Eastern Blacknose Dace": 3,
+            "Brook Trout": 4,
+            "Rainbow Trout": 1,
+            "River Chub": 2,
+            "Warpaint Shiner": 1,
+            "Longnose Dace": 4
+        },
+        {
+            "Year": 1987,
+            "Telescope Shiner": 2,
+            "Redline Darter": 1,
+            "Greenfin Darter": 1,
+            "Whitetail Shiner": 1,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 3,
+            "Gilt Darter": 2,
+            "Eastern Blacknose Dace": 2,
+            "Saffron Shiner": 2,
+            "Rainbow Trout": 1,
+            "River Chub": 1,
+            "Longnose Dace": 3
+        },
+        {
+            "Year": 1988,
+            "Northern Hog Sucker": 10,
+            "Telescope Shiner": 2,
+            "Brown Trout": 4,
+            "Redline Darter": 2,
+            "Greenfin Darter": 1,
+            "Smoky Dace": 2,
+            "Whitetail Shiner": 3,
+            "Tennessee Shiner": 4,
+            "Central Stoneroller": 11,
+            "Smallmouth Bass": 1,
+            "Creek Chub": 5,
+            "Eastern Blacknose Dace": 8,
+            "Saffron Shiner": 3,
+            "Rainbow Trout": 9,
+            "Rock Bass": 3,
+            "River Chub": 3,
+            "Warpaint Shiner": 2,
+            "Longnose Dace": 6
+        },
+        {
+            "Year": 1989,
+            "Northern Hog Sucker": 7,
+            "Telescope Shiner": 3,
+            "Brown Trout": 4,
+            "Redline Darter": 2,
+            "Greenfin Darter": 7,
+            "Smoky Dace": 8,
+            "Whitetail Shiner": 1,
+            "Tennessee Shiner": 7,
+            "Central Stoneroller": 10,
+            "Gilt Darter": 4,
+            "Creek Chub": 4,
+            "Eastern Blacknose Dace": 5,
+            "Brook Trout": 1,
+            "Rainbow Trout": 6,
+            "Rock Bass": 5,
+            "River Chub": 7,
+            "Warpaint Shiner": 9,
+            "Longnose Dace": 9
+        },
+        {
+            "Year": 1990,
+            "Northern Hog Sucker": 2,
+            "Telescope Shiner": 1,
+            "Greenfin Darter": 3,
+            "Smoky Dace": 2,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 3,
+            "Gilt Darter": 1,
+            "Smallmouth Bass": 1,
+            "Eastern Blacknose Dace": 1,
+            "Saffron Shiner": 1,
+            "Rainbow Trout": 2,
+            "Rock Bass": 2,
+            "River Chub": 2,
+            "Warpaint Shiner": 3,
+            "Longnose Dace": 2
+        },
+        {
+            "Year": 2002,
+            "Orangeside Dace": 8,
+            "Northern Hog Sucker": 9,
+            "Telescope Shiner": 5,
+            "Brown Trout": 5,
+            "Redline Darter": 4,
+            "Greenfin Darter": 3,
+            "Whitetail Shiner": 3,
+            "Tennessee Shiner": 7,
+            "Gilt Darter": 3,
+            "Smallmouth Bass": 4,
+            "Brook Trout": 3,
+            "Saffron Shiner": 3,
+            "Rainbow Trout": 12,
+            "Rock Bass": 3,
+            "Largescale Stoneroller": 9,
+            "River Chub": 9,
+            "Warpaint Shiner": 9,
+            "Longnose Dace": 8
+        },
+        {
+            "Year": 2003,
+            "Orangeside Dace": 32,
+            "Northern Hog Sucker": 23,
+            "Telescope Shiner": 7,
+            "Brown Trout": 21,
+            "Redline Darter": 10,
+            "Greenfin Darter": 6,
+            "Whitetail Shiner": 13,
+            "Tennessee Shiner": 12,
+            "Central Stoneroller": 8,
+            "Gilt Darter": 4,
+            "Smallmouth Bass": 13,
+            "Creek Chub": 4,
+            "Brook Trout": 6,
+            "Saffron Shiner": 10,
+            "Rainbow Trout": 40,
+            "Rock Bass": 3,
+            "Largescale Stoneroller": 18,
+            "River Chub": 21,
+            "Warpaint Shiner": 17,
+            "Longnose Dace": 18
+        },
+        {
+            "Year": 2004,
+            "Northern Hog Sucker": 3,
+            "Brown Trout": 1,
+            "Greenfin Darter": 1,
+            "Whitetail Shiner": 4,
+            "Tennessee Shiner": 3,
+            "Central Stoneroller": 4,
+            "Gilt Darter": 1,
+            "Smallmouth Bass": 3,
+            "Eastern Blacknose Dace": 3,
+            "Brook Trout": 2,
+            "Rainbow Trout": 9,
+            "Rock Bass": 3,
+            "River Chub": 1,
+            "Warpaint Shiner": 3,
+            "Longnose Dace": 7
+        },
+        {
+            "Year": 2006,
+            "Northern Hog Sucker": 8,
+            "Telescope Shiner": 3,
+            "Redline Darter": 10,
+            "Greenfin Darter": 10,
+            "Whitetail Shiner": 10,
+            "Tennessee Shiner": 10,
+            "Gilt Darter": 6,
+            "Smallmouth Bass": 10,
+            "Rock Bass": 5,
+            "Largescale Stoneroller": 10,
+            "River Chub": 8,
+            "Warpaint Shiner": 9
+        },
+        {
+            "Year": 2009,
+            "Saffron Shiner": 1
+        },
+        {
+            "Year": 2010,
+            "Orangeside Dace": 3,
+            "Northern Hog Sucker": 2,
+            "Telescope Shiner": 2,
+            "Brown Trout": 3,
+            "Redline Darter": 1,
+            "Smoky Dace": 1,
+            "Tennessee Shiner": 3,
+            "Central Stoneroller": 3,
+            "Creek Chub": 1,
+            "Eastern Blacknose Dace": 3,
+            "Saffron Shiner": 2,
+            "Rainbow Trout": 4,
+            "Rock Bass": 1,
+            "Largescale Stoneroller": 1,
+            "River Chub": 3,
+            "Warpaint Shiner": 4,
+            "Longnose Dace": 5
+        },
+        {
+            "Year": 2011,
+            "Northern Hog Sucker": 2,
+            "Telescope Shiner": 1,
+            "Brown Trout": 1,
+            "Redline Darter": 1,
+            "Tennessee Shiner": 1,
+            "Central Stoneroller": 1,
+            "Smallmouth Bass": 1,
+            "Brook Trout": 1,
+            "Rainbow Trout": 1,
+            "River Chub": 1,
+            "Warpaint Shiner": 1,
+            "Longnose Dace": 1
+        },
+        {
+            "Year": 2013,
+            "Redline Darter": 1,
+            "Warpaint Shiner": 1
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "years": [
+        {
+            "Year": 2001,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 2005,
+            "Total Animals Spotted": 413
+        }
+    ],
+    "layers": [
+        {
+            "Year": 2001,
+            "Meager Enotia Diatom": 1,
+            "Rhomboid Eunotia Diatom": 1
+        },
+        {
+            "Year": 2005,
+            "Meager Enotia Diatom": 51,
+            "Undulated Eunotia Diatom": 38,
+            "Rhomboid Eunotia Diatom": 106,
+            "Minor Eunotia Diatom": 44,
+            "Diatom": 44,
+            "Bowed Eunotia Diatom": 61,
+            "Incised Eunotia Diatom": 69
+        }
+    ]
+}

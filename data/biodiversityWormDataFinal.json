@@ -1,0 +1,134 @@
+{
+    "years": [
+        {
+            "Year": 1992,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1993,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1994,
+            "Total Animals Spotted": 3
+        },
+        {
+            "Year": 1995,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1996,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 2003,
+            "Total Animals Spotted": 21
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 10
+        },
+        {
+            "Year": 2006,
+            "Total Animals Spotted": 16
+        },
+        {
+            "Year": 2007,
+            "Total Animals Spotted": 66
+        },
+        {
+            "Year": 2008,
+            "Total Animals Spotted": 21
+        },
+        {
+            "Year": 2009,
+            "Total Animals Spotted": 5
+        },
+        {
+            "Year": 2010,
+            "Total Animals Spotted": 33
+        },
+        {
+            "Year": 2011,
+            "Total Animals Spotted": 7
+        },
+        {
+            "Year": 2012,
+            "Total Animals Spotted": 5
+        },
+        {
+            "Year": 2013,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 2014,
+            "Total Animals Spotted": 3
+        }
+    ],
+    "layers": [
+        {
+            "Year": 1992,
+            "Worm": 1
+        },
+        {
+            "Year": 1993,
+            "Worm": 1
+        },
+        {
+            "Year": 1994,
+            "Worm": 3
+        },
+        {
+            "Year": 1995,
+            "Worm": 1
+        },
+        {
+            "Year": 1996,
+            "Worm": 1
+        },
+        {
+            "Year": 2003,
+            "Worm": 21
+        },
+        {
+            "Year": 2004,
+            "Worm": 10
+        },
+        {
+            "Year": 2006,
+            "Unspecified": 16
+        },
+        {
+            "Year": 2007,
+            "Unspecified": 66
+        },
+        {
+            "Year": 2008,
+            "Unspecified": 21
+        },
+        {
+            "Year": 2009,
+            "Unspecified": 5
+        },
+        {
+            "Year": 2010,
+            "Unspecified": 33
+        },
+        {
+            "Year": 2011,
+            "Unspecified": 7
+        },
+        {
+            "Year": 2012,
+            "Unspecified": 5
+        },
+        {
+            "Year": 2013,
+            "Unspecified": 2
+        },
+        {
+            "Year": 2014,
+            "Unspecified": 3
+        }
+    ]
+}

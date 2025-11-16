@@ -1,0 +1,135 @@
+{
+    "years": [
+        {
+            "Year": 2000,
+            "Total Animals Spotted": 35
+        },
+        {
+            "Year": 2001,
+            "Total Animals Spotted": 149
+        },
+        {
+            "Year": 2002,
+            "Total Animals Spotted": 260
+        },
+        {
+            "Year": 2003,
+            "Total Animals Spotted": 125
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 13
+        },
+        {
+            "Year": 2005,
+            "Total Animals Spotted": 76
+        },
+        {
+            "Year": 2006,
+            "Total Animals Spotted": 9
+        },
+        {
+            "Year": 2007,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 2008,
+            "Total Animals Spotted": 37
+        },
+        {
+            "Year": 2010,
+            "Total Animals Spotted": 1
+        }
+    ],
+    "layers": [
+        {
+            "Year": 2000,
+            "Tonolli`s Water Bear": 3,
+            "Intermediate Water Bear": 3,
+            "Harmsworth`s Water Bear": 1,
+            "Waterbear": 19,
+            "Unspecified": 6,
+            "Hufeland`s Waterbear": 3
+        },
+        {
+            "Year": 2001,
+            "Pallar`s Water Bear": 22,
+            "Unspecified": 31,
+            "Higgin's Waterbear": 5,
+            "Waterbear": 37,
+            "Tonolli`s Water Bear": 8,
+            "Intermediate Water Bear": 17,
+            "Harmsworth`s Water Bear": 20,
+            "Hufeland`s Waterbear": 9
+        },
+        {
+            "Year": 2002,
+            "Pallar`s Water Bear": 28,
+            "Unspecified": 59,
+            "Higgin's Waterbear": 13,
+            "Waterbear": 80,
+            "Tonolli`s Water Bear": 18,
+            "Intermediate Water Bear": 28,
+            "Harmsworth`s Water Bear": 25,
+            "Hufeland`s Waterbear": 9
+        },
+        {
+            "Year": 2003,
+            "Pallar`s Water Bear": 14,
+            "Unspecified": 37,
+            "Higgin's Waterbear": 11,
+            "Waterbear": 32,
+            "Tonolli`s Water Bear": 1,
+            "Intermediate Water Bear": 13,
+            "Harmsworth`s Water Bear": 11,
+            "Hufeland`s Waterbear": 6
+        },
+        {
+            "Year": 2004,
+            "Pallar`s Water Bear": 2,
+            "Unspecified": 2,
+            "Higgin's Waterbear": 1,
+            "Tonolli`s Water Bear": 1,
+            "Intermediate Water Bear": 1,
+            "Harmsworth`s Water Bear": 1,
+            "Waterbear": 4,
+            "Hufeland`s Waterbear": 1
+        },
+        {
+            "Year": 2005,
+            "Pallar`s Water Bear": 11,
+            "Unspecified": 25,
+            "Higgin's Waterbear": 3,
+            "Intermediate Water Bear": 8,
+            "Harmsworth`s Water Bear": 9,
+            "Waterbear": 19,
+            "Hufeland`s Waterbear": 1
+        },
+        {
+            "Year": 2006,
+            "Pallar`s Water Bear": 2,
+            "Unspecified": 3,
+            "Intermediate Water Bear": 1,
+            "Harmsworth`s Water Bear": 2,
+            "Waterbear": 1
+        },
+        {
+            "Year": 2007,
+            "Waterbear": 1,
+            "Unspecified": 1
+        },
+        {
+            "Year": 2008,
+            "Pallar`s Water Bear": 1,
+            "Unspecified": 22,
+            "Intermediate Water Bear": 3,
+            "Harmsworth`s Water Bear": 4,
+            "Waterbear": 6,
+            "Hufeland`s Waterbear": 1
+        },
+        {
+            "Year": 2010,
+            "Hufeland`s Waterbear": 1
+        }
+    ]
+}

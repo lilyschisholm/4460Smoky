@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Recovering Resilience: The Great Smoky Mountains</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/parksComparison.css" />
+    <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+
+
+
+<header>
+    <h1>Recovering Resilience: The Great Smoky Mountains</h1>
+    <p class="subtitle">
+        How the Great Smoky Mountains recovered from air pollution, acidic streams, and renewed biodiversity.
+    </p>
+    <p class="subtitle">
+        By Team YALK: Yulin Lu, Chih-Ying Lee, Lily Chisholm, Katelyn Gumagay
+    </p>
+    <nav id="nav">
+            <a href="#intro">•</a>
+            <a href="#visibility">•</a>
+            <a href="#water">•</a>
+            <a href="#biodiversity">•</a>
+            <a href="#visits">•</a>
+            <a href="#comparison">•</a>
+            <a href="#conclusion">•</a>
+        </ul>
+    </nav>
+</header>
+
+<main id="main">
+    <section id="intro" class="content-section">
+    <div class="intro-text-container">
+        <h2>The Hidden Story of Recovery</h2>
+        <p>
+            For decades, the Great Smoky Mountains suffered from the invisible damage of industrial pollution — murky air,
+            acidified rain, and stressed wildlife. But over time, coordinated environmental policies, conservation efforts,
+            and ecosystem resilience have led to signs of recovery.
+        </p>
+        <p>
+            This visualization tells that story through data. We represent factors of the park including:
+            <br/>
+            <strong>park visibility</strong>, shown through the amount of particulate matter in the air, 
+            <strong>water quality</strong>, shown through ANC levels in the water, and 
+            <strong>biodiversity</strong> of the various types of species existing in the park. 
+            Each dataset reveals a layer of resilience within the Smokies’ ecosystem.
+        </p>
+    </div>
+    </section>
+
+    <section id="visibility" class="content-section">
+        <div class="visibility-animation">
+            <div class="cloud-layer" id="cloud1"></div>
+            <div class="cloud-layer" id="cloud2"></div>
+            <div class="cloud-layer" id="cloud3"></div>
+        </div>
+
+        <div class="visibility-content">
+            <div class="visibility-text">
+                <h2>Clearing the Air</h2>
+                <p class="scene-intro">
+                    The park’s iconic views once symbolized beauty — until air pollution turned it gray. The graph below tracks visibility
+                    improvements over time, showing the results of decades of emission reductions after the <em>Clean Air Act</em> and
+                    many other conservation efforts made by the national park servies. These efforts can be shown by the visualization 
+                    as the less 
+                    <span data-bs-toggle="tooltip" data-bs-placement="top" style="background-color:antiquewhite" class="scene-intro" title="a mixture of tiny solid particles and liquid droplets in the air, from sources like vehicle exhaust and other pollutants">particulate matter</span>
+                    there is, the more visible the Smoky Mountains will be. This is compared to the park's 
+                    visitation data, displaying the direct correlation between park visbility and visitation. 
+                </p>
+                <p class="scene-intro">
+                    Note: PM2.5(µg/m³) refers to the concentration of fine particulate matter with a diameter of 2.5 micrometers or less, measured in micrograms per cubic meter of air.
+                </p>
+            </div>
+
+            <div class="visibility-graph">
+                <div id="visibilityGraph" class="chart-placeholder" aria-label="Visibility improvements over time">
+                    <svg width="900" height="400"></svg>
+                </div>
+            </div>
+
+        <p class="interpretation">
+            <em>Less air pollution means more visitors:</em> Over time, visibility improves as emissions decline — a clear sign that air
+            quality policy changes are working. This can be shown by the opacity of the area graph reducing as times go on, directly correlating
+            with the increased park visitation. However, visibility, and park visitation alongside it, is slightly decreasing as conservation 
+            efforts have slowed. 
+        </p>
+    </section>
+
+
+
+    <section class="narrative-text">
+        <p>
+            Clearer skies are only the beginning. As pollution declines, the mountains begin to heal in less visible ways —
+            starting with the chemistry of their streams and rivers.
+        </p>
+    </section>
+
+    <section id="water" class="content-section water-section">
+        <div class="water-header">
+            <h2>Streams That Remember</h2>
+            <p class="intro-text">
+                Acid rain stripped minerals from the Smokies’ soils, lowering the pH of mountain streams and endangering fish and
+                other aquatic populations. The <strong>Acid Neutralizing Capacity (ANC)</strong> dataset tracks how well streams can 
+                buffer against acidification. Higher ANC means greater chemical stability and healthier habitats, allowing varieties 
+                species to thrive. </br>
+                Each cell represents ANC at a specific stream site and year (1993–2023).
+                <strong>Darker = low buffering</strong>, <strong>brighter = high buffering (healthier)</strong>. <br></br>
+                <strong style="background-color:antiquewhite">The water heatmap chart and the ANC trendline visualization are linked! Highlight a timeframe on the heatmap
+                to see the ANC trend for that timeframe.</strong>
+            </p>
+        <div class="charts-container">
+            <div class="chart-wrapper">
+                <h3>Spatial and Temporal Patterns (Heatmap)</h3>
+                <p class="interpretation">
+                    You may be wondering about Site 0174: why does that particular site have such a high ANC?
+                    There isn't enough data to understand the exact cause, but deducing from the environment of the smokies, 
+                    we can think of a few potential reasons! For example, this particular site might have an abundance of limestone bedrock,
+                    which has a lot of carbonates and bicarbonates, making it well suited for neutralizing acids.
+                    It could also be that this site has a lot of decomposing organic matter, and thus releases a lot of carbon dioxide,
+                    which can help neutralize acids.
+                </p>
+                <div id="waterHeatmap" class="chart-placeholder">
+                    <svg width="900" height="400"></svg>
+                </div>
+            </div>
+
+            <div class="chart-wrapper">
+                <h3>Park-Wide ANC Trend (1993–2023)</h3>
+                <p>
+                    The trendline below shows how the park’s average stream ANC has changed over time — a direct measure of how
+                    air-quality improvements affect water chemistry.
+                </p>
+                <div id="ancTrendVis" class="chart-placeholder">
+                    <svg width="900" height="300"></svg>
+                </div>
+            </div>
+        <p class="interpretation">
+            <em>Slow Recovery following Efforts:</em> Starting in the early 2000s, ANC values gradually rise — reflecting fewer acidic inputs and
+            the slow recovery of soil and stream chemistry. Cleaner air means healthier waters.
+        </p>
+    </section>
+
+    <section class="narrative-text">
+        <p>
+            As the chemistry stabilizes, the ecosystem can finally start to breathe again. Fish, insects, and amphibians —
+            once driven out by acidic waters — begin to return to their natural habitats.
+        </p>
+    </section>
+
+
+    <section id="biodiversity" class="content-section">
+        <div>
+            <div class="fish-animation">
+                <div class="fish-layer" id="fish1"></div>
+                <div class="fish-layer" id="fish2"></div>
+                <div class="fish-layer" id="fish3"></div>
+                <div class="fish-layer" id="fish4"></div>
+                <div class="fish-layer" id="fish5"></div>
+                <div class="fish-layer" id="fish6"></div>
+            </div>
+            <h2 class="biodiversityText">Life Returns to the Park</h2>
+            <p class="biodiversityText" style="color: white;">
+                The park's biodiversity data shows how different species populations have changed over time, reflecting the
+                ecosystem's response to environmental improvements. With this, we can see how populations of different species 
+                have increased or decreased over time, as well as see overall trends in biodiversity. These reflect the environment
+                of the smokies, as well as conservation efforts. For example, in the 1990&apos;s - 2000&apos;s, when
+                conservation efforts increased, you can see an overall increase in biodiversity! Decreases after this point are attributed
+                to a loss of conservation efforts together with a lack of effort in recording of species.
+            </p>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <select id="taxa-select" class="form-control">
+                        <option value="all">All Species</option>
+                        <option value="bird">Birds</option>
+                        <option value="mammal">Mammals</option>
+                        <option value="fish">Fish</option>
+                        <option value="amphibian">Amphibians</option>
+                        <option value="reptile">Reptiles</option>
+                        <option value="insect">Insects</option>
+                        <option value="plant">Plants</option>
+                        <option value="algae">Algae</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="stacked-area" class="biodiversityItem">
+                <svg width="900" height="400"></svg>
+            </div>
+            <div id="timeline" class="biodiversityItem">
+                <svg width="900" height="100"></svg>
+            </div>
+
+        <p class="interpretation">
+            <em>Species' Comeback:</em> The visualization shows population trends across different species groups.
+            Use the dropdown to focus on specific taxa groups, and the timeline brush to zoom into specific time periods.
+            Click on any area in the chart to focus on a specific species.
+            The overall trend of each species show increasing populations, showing that current conservation efforts 
+            <strong>are working</strong>.
+        </p>
+    </section>
+
+    <section id="visits">
+        <h2>People Return to the Mountains</h2>
+        <p>
+            As the Smokies healed, so did our connection to them.
+            Cleaner air and recovering streams invited people back.<br>
+            The steady rise in visitation marks the return of trust in the land’s ability to breathe again.
+        </p>
+        <div id="visitsVis" class="chart-placeholder">
+            <svg width="900" height="400"></svg>
+        </div>
+
+        <div class="person" style="--x:10%; --bottom:75px; --delay:0s;"></div>
+        <div class="person" style="--x:15%; --bottom:80px; --delay:1s;"></div>
+        <div class="person" style="--x:18%; --bottom:70px; --delay:0.6s;"></div>
+        <div class="person" style="--x:22%; --bottom:88px; --delay:1.5s;"></div>
+        <div class="person" style="--x:28%; --bottom:78px; --delay:0.3s;"></div>
+        <div class="person" style="--x:32%; --bottom:72px; --delay:2s;"></div>
+        <div class="person" style="--x:37%; --bottom:90px; --delay:0.8s;"></div>
+        <div class="person" style="--x:41%; --bottom:80px; --delay:1.3s;"></div>
+        <div class="person" style="--x:46%; --bottom:70px; --delay:0.4s;"></div>
+        <div class="person" style="--x:52%; --bottom:82px; --delay:2.2s;"></div>
+        <div class="person" style="--x:57%; --bottom:76px; --delay:1.7s;"></div>
+        <div class="person" style="--x:61%; --bottom:85px; --delay:0.9s;"></div>
+        <div class="person" style="--x:65%; --bottom:72px; --delay:1.1s;"></div>
+        <div class="person" style="--x:70%; --bottom:88px; --delay:0.2s;"></div>
+        <div class="person" style="--x:74%; --bottom:80px; --delay:2.4s;"></div>
+        <div class="person" style="--x:77%; --bottom:74px; --delay:1.9s;"></div>
+        <div class="person" style="--x:81%; --bottom:78px; --delay:0.7s;"></div>
+        <div class="person" style="--x:86%; --bottom:72px; --delay:1.2s;"></div>
+        <div class="person" style="--x:90%; --bottom:85px; --delay:2.5s;"></div>
+        <div class="person" style="--x:94%; --bottom:80px; --delay:0.5s;"></div>
+
+    </section>
+
+    <section class="narrative-text">
+        <p>
+            From air to water, life to people — each layer of recovery tells the same story: ecosystems are interconnected,
+            and healing in one part ripples through the rest.
+        </p>
+    </section>
+
+    <section id="comparison" class="content-section">
+        <h2 class="comparisonText">The Bigger Picture</h2>
+        <p class="comparisonText" style="color: white">
+            The Smokies’ story is part of a broader pattern across U.S. national parks — where decades of conservation and
+            regulation have slowly reversed environmental decline. However, recent issues have affected the trajectory of improvement
+            for many of these beautiful parks. This chart shows the top 10 most popular national parks in the United States, and how many
+            species they boast. Hover over each bar to learn more about the park, and why its species count is the way it is.
+        </p>
+        <div id="comparisonVis" class="chart-placeholder">
+            <svg width="900" height="500"></svg>
+        </div>
+    </section>
+
+    <section id="conclusion" class="content-section">
+        <h2>Conclusion: Interconnected Recovery</h2>
+        <p>
+            The Great Smoky Mountains’ recovery is not just a story of cleaner air or better water — it’s a reminder that
+            ecosystems heal as systems. When air clears, streams recover. When water stabilizes, fish return. And when life
+            thrives, people come back to celebrate it. This shows the importance of conservation efforts. The Great Smoky 
+            Mountains have benefited greatly from the efforts of the National Park Services, showing how far conservation 
+            effects can reach. We urge these efforts to be continued; the importance of these efforts effects every aspect 
+            of our local, national, and global ecosystems.
+        </p>
+        <p>
+            This cycle — from pollution to protection, from decline to renewal — shows that resilience is measurable,
+            visualizable, and incredibly important.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>Created by <strong>Team YALK</strong> • Georgia Tech CS 4460 Data Visualization • Fall 2025</p>
+</footer>
+
+<div id="scrollToTop" title="Go to top">↑</div>
+<script src="js/stackedAreaChart.js"></script>
+<script src="js/timeline.js"></script>
+
+<script src="js/visibilityGraph.js"></script>
+<script src="js/waterHeatmap.js"></script>
+<script src="js/ancTrend.js"></script>
+<script src="js/visitsVis.js"></script>
+<script src="js/parksComparison.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/visibilityScroll.js"></script>
+<script src="js/fishAnimation.js"></script>
+<script src="js/scrollToTopBtn.js"></script>
+<script src="js/rainDrop.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+

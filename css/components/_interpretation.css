@@ -1,0 +1,10 @@
+.interpretation {
+    background: #f3f6fa;
+    border-left: 4px solid #4477aa;
+    padding: 12px 20px;
+    font-style: italic;
+    margin: 30px auto;
+    border-radius: 6px;
+    max-width: 850px;
+    color: #333;
+}

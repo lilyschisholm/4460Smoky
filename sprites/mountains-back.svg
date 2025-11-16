@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="none">
+    <!-- Taller peaks for dramatic depth; same start and end height for perfect loop -->
+    <path fill="#b2cce0" d="
+    M0,280
+    L60,210 L120,270 L180,180 L240,250 L300,150 L360,270 L420,130
+    L480,260 L540,160 L600,290 L660,170 L720,260 L780,140 L840,280
+    L900,190 L960,290 L1020,160 L1080,280 L1140,200 L1200,280
+    L1200,400 L0,400 Z
+  " />
+</svg>

@@ -1,0 +1,27 @@
+.tooltip {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    pointer-events: none;
+    z-index: 5;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#comparisonVis rect {
+    transition: fill 0.2s;
+}
+
+#comparisonVis rect:hover {
+    fill: #4a8c74;
+}
+
+.x-label, .y-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#comparisonVis text {
+    font-size: 12px;
+}

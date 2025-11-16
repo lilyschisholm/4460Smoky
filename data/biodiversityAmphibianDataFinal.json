@@ -1,0 +1,481 @@
+{
+    "years": [
+        {
+            "Year": 1913,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1932,
+            "Total Animals Spotted": 4
+        },
+        {
+            "Year": 1937,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1939,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1954,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 1960,
+            "Total Animals Spotted": 5
+        },
+        {
+            "Year": 1961,
+            "Total Animals Spotted": 33
+        },
+        {
+            "Year": 1962,
+            "Total Animals Spotted": 84
+        },
+        {
+            "Year": 1963,
+            "Total Animals Spotted": 78
+        },
+        {
+            "Year": 1964,
+            "Total Animals Spotted": 22
+        },
+        {
+            "Year": 1965,
+            "Total Animals Spotted": 40
+        },
+        {
+            "Year": 1966,
+            "Total Animals Spotted": 32
+        },
+        {
+            "Year": 1967,
+            "Total Animals Spotted": 20
+        },
+        {
+            "Year": 1968,
+            "Total Animals Spotted": 18
+        },
+        {
+            "Year": 1969,
+            "Total Animals Spotted": 7
+        },
+        {
+            "Year": 1970,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1971,
+            "Total Animals Spotted": 10
+        },
+        {
+            "Year": 1972,
+            "Total Animals Spotted": 6
+        },
+        {
+            "Year": 1973,
+            "Total Animals Spotted": 9
+        },
+        {
+            "Year": 1974,
+            "Total Animals Spotted": 3
+        },
+        {
+            "Year": 1975,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1976,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1977,
+            "Total Animals Spotted": 6
+        },
+        {
+            "Year": 1978,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1981,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1984,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 1985,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1986,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 1987,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 1992,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1994,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 1995,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1997,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1998,
+            "Total Animals Spotted": 125
+        },
+        {
+            "Year": 1999,
+            "Total Animals Spotted": 404
+        },
+        {
+            "Year": 2000,
+            "Total Animals Spotted": 343
+        },
+        {
+            "Year": 2001,
+            "Total Animals Spotted": 42
+        },
+        {
+            "Year": 2003,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 26
+        },
+        {
+            "Year": 2006,
+            "Total Animals Spotted": 10
+        },
+        {
+            "Year": 2007,
+            "Total Animals Spotted": 23
+        },
+        {
+            "Year": 2008,
+            "Total Animals Spotted": 8
+        },
+        {
+            "Year": 2009,
+            "Total Animals Spotted": 3
+        },
+        {
+            "Year": 2010,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 2012,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 2013,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 9998,
+            "Total Animals Spotted": 1
+        }
+    ],
+    "layers": [
+        {
+            "Year": 1913,
+            "Blue Ridge Spring Salamander": 1
+        },
+        {
+            "Year": 1932,
+            "Black-bellied Salamander": 3,
+            "Seal Salamander": 1
+        },
+        {
+            "Year": 1937,
+            "Black-bellied Salamander": 1
+        },
+        {
+            "Year": 1939,
+            "Black-chinned Red Salamander": 1
+        },
+        {
+            "Year": 1954,
+            "Black-bellied Salamander": 1,
+            "Seal Salamander": 1
+        },
+        {
+            "Year": 1960,
+            "Black-bellied Salamander": 1,
+            "Blue Ridge Two-lined Salamander": 2,
+            "Spring Salamander": 1,
+            "Seal Salamander": 1
+        },
+        {
+            "Year": 1961,
+            "Blue Ridge Two-lined Salamander": 26,
+            "Seal Salamander": 2,
+            "Blue Ridge Spring Salamander": 5
+        },
+        {
+            "Year": 1962,
+            "Black-bellied Salamander": 3,
+            "Blue Ridge Two-lined Salamander": 61,
+            "Seal Salamander": 6,
+            "Black-chinned Red Salamander": 4,
+            "Blue Ridge Spring Salamander": 10
+        },
+        {
+            "Year": 1963,
+            "Black-bellied Salamander": 3,
+            "Blue Ridge Two-lined Salamander": 65,
+            "Seal Salamander": 6,
+            "Blue Ridge Spring Salamander": 4
+        },
+        {
+            "Year": 1964,
+            "Black-bellied Salamander": 1,
+            "Blue Ridge Two-lined Salamander": 21
+        },
+        {
+            "Year": 1965,
+            "Black-bellied Salamander": 5,
+            "Blue Ridge Two-lined Salamander": 25,
+            "Seal Salamander": 4,
+            "Black-chinned Red Salamander": 2,
+            "Blue Ridge Spring Salamander": 4
+        },
+        {
+            "Year": 1966,
+            "Black-bellied Salamander": 3,
+            "Blue Ridge Two-lined Salamander": 21,
+            "Seal Salamander": 4,
+            "Black-chinned Red Salamander": 1,
+            "Blue Ridge Spring Salamander": 3
+        },
+        {
+            "Year": 1967,
+            "Blue Ridge Two-lined Salamander": 16,
+            "Seal Salamander": 1,
+            "Black-chinned Red Salamander": 1,
+            "Blue Ridge Spring Salamander": 2
+        },
+        {
+            "Year": 1968,
+            "Black-bellied Salamander": 1,
+            "Blue Ridge Two-lined Salamander": 14,
+            "Seal Salamander": 2,
+            "Black-chinned Red Salamander": 1
+        },
+        {
+            "Year": 1969,
+            "Blue Ridge Two-lined Salamander": 6,
+            "Seal Salamander": 1
+        },
+        {
+            "Year": 1970,
+            "Blue Ridge Two-lined Salamander": 1
+        },
+        {
+            "Year": 1971,
+            "Blue Ridge Two-lined Salamander": 7,
+            "Spring Salamander": 1,
+            "Black-chinned Red Salamander": 1,
+            "Blue Ridge Spring Salamander": 1
+        },
+        {
+            "Year": 1972,
+            "Blue Ridge Two-lined Salamander": 5,
+            "Blue Ridge Spring Salamander": 1
+        },
+        {
+            "Year": 1973,
+            "Blue Ridge Two-lined Salamander": 5,
+            "Blue Ridge Spring Salamander": 4
+        },
+        {
+            "Year": 1974,
+            "Blue Ridge Two-lined Salamander": 2,
+            "Black-chinned Red Salamander": 1
+        },
+        {
+            "Year": 1975,
+            "Blue Ridge Two-lined Salamander": 1
+        },
+        {
+            "Year": 1976,
+            "Spring Salamander": 1
+        },
+        {
+            "Year": 1977,
+            "Blue Ridge Two-lined Salamander": 6
+        },
+        {
+            "Year": 1978,
+            "Spring Salamander": 1
+        },
+        {
+            "Year": 1981,
+            "Blue Ridge Two-lined Salamander": 1
+        },
+        {
+            "Year": 1984,
+            "Blue Ridge Two-lined Salamander": 2
+        },
+        {
+            "Year": 1985,
+            "Blue Ridge Two-lined Salamander": 1
+        },
+        {
+            "Year": 1986,
+            "Blue Ridge Two-lined Salamander": 2
+        },
+        {
+            "Year": 1987,
+            "Spring Salamander": 2
+        },
+        {
+            "Year": 1992,
+            "Black-bellied Salamander": 1
+        },
+        {
+            "Year": 1994,
+            "Wood Frog": 1,
+            "Spring Peeper": 1
+        },
+        {
+            "Year": 1995,
+            "Eastern American Toad": 1
+        },
+        {
+            "Year": 1997,
+            "Shovel-nosed Salamander": 1
+        },
+        {
+            "Year": 1998,
+            "Wood Frog": 5,
+            "Black-bellied Salamander": 19,
+            "Cope's Gray Treefrog": 2,
+            "Shovel-nosed Salamander": 4,
+            "Blue Ridge Two-lined Salamander": 43,
+            "Spotted Dusky Salamander": 16,
+            "Spring Peeper": 1,
+            "Spring Salamander": 12,
+            "Seal Salamander": 7,
+            "Eastern American Toad": 11,
+            "Black-chinned Red Salamander": 5
+        },
+        {
+            "Year": 1999,
+            "Wood Frog": 25,
+            "Black-bellied Salamander": 52,
+            "Cope's Gray Treefrog": 17,
+            "Shovel-nosed Salamander": 19,
+            "Blue Ridge Two-lined Salamander": 92,
+            "Spotted Dusky Salamander": 54,
+            "Spring Peeper": 16,
+            "Spring Salamander": 23,
+            "Seal Salamander": 44,
+            "Eastern American Toad": 35,
+            "Black-chinned Red Salamander": 27
+        },
+        {
+            "Year": 2000,
+            "Wood Frog": 21,
+            "Black-bellied Salamander": 53,
+            "Cope's Gray Treefrog": 12,
+            "Shovel-nosed Salamander": 14,
+            "Blue Ridge Two-lined Salamander": 73,
+            "Spotted Dusky Salamander": 54,
+            "Spring Peeper": 13,
+            "Spring Salamander": 28,
+            "Seal Salamander": 37,
+            "Eastern American Toad": 22,
+            "Black-chinned Red Salamander": 16
+        },
+        {
+            "Year": 2001,
+            "Wood Frog": 7,
+            "Black-bellied Salamander": 6,
+            "Cope's Gray Treefrog": 1,
+            "Blue Ridge Two-lined Salamander": 7,
+            "Spotted Dusky Salamander": 7,
+            "Spring Peeper": 1,
+            "Spring Salamander": 6,
+            "Seal Salamander": 2,
+            "Eastern American Toad": 4,
+            "Black-chinned Red Salamander": 1
+        },
+        {
+            "Year": 2003,
+            "Wood Frog": 1
+        },
+        {
+            "Year": 2004,
+            "Wood Frog": 1,
+            "Black-bellied Salamander": 5,
+            "Cope's Gray Treefrog": 1,
+            "Blue Ridge Two-lined Salamander": 6,
+            "Seal Salamander": 10,
+            "Eastern American Toad": 1,
+            "Black-chinned Red Salamander": 2
+        },
+        {
+            "Year": 2006,
+            "Wood Frog": 1,
+            "Blue Ridge Two-lined Salamander": 2,
+            "Spring Salamander": 3,
+            "Eastern American Toad": 3,
+            "Black-chinned Red Salamander": 1
+        },
+        {
+            "Year": 2007,
+            "Wood Frog": 5,
+            "Black-bellied Salamander": 1,
+            "Cope's Gray Treefrog": 1,
+            "Blue Ridge Two-lined Salamander": 7,
+            "Spotted Dusky Salamander": 2,
+            "Spring Peeper": 2,
+            "Spring Salamander": 2,
+            "Seal Salamander": 2,
+            "Eastern American Toad": 1
+        },
+        {
+            "Year": 2008,
+            "Blue Ridge Two-lined Salamander": 1,
+            "Eastern American Toad": 5,
+            "Black-chinned Red Salamander": 2
+        },
+        {
+            "Year": 2009,
+            "Wood Frog": 1,
+            "Spring Peeper": 1,
+            "Eastern American Toad": 1
+        },
+        {
+            "Year": 2010,
+            "Black-bellied Salamander": 1,
+            "Spotted Dusky Salamander": 1
+        },
+        {
+            "Year": 2012,
+            "Wood Frog": 1
+        },
+        {
+            "Year": 2013,
+            "Cope's Gray Treefrog": 1
+        },
+        {
+            "Year": 9998,
+            "Spring Salamander": 1
+        }
+    ]
+}

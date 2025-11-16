@@ -1,0 +1,126 @@
+{
+    "years": [
+        {
+            "Year": 1998,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1999,
+            "Total Animals Spotted": 22
+        },
+        {
+            "Year": 2000,
+            "Total Animals Spotted": 36
+        },
+        {
+            "Year": 2001,
+            "Total Animals Spotted": 59
+        },
+        {
+            "Year": 2002,
+            "Total Animals Spotted": 108
+        },
+        {
+            "Year": 2003,
+            "Total Animals Spotted": 140
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 20
+        },
+        {
+            "Year": 2005,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 2006,
+            "Total Animals Spotted": 3
+        },
+        {
+            "Year": 2007,
+            "Total Animals Spotted": 11
+        },
+        {
+            "Year": 2008,
+            "Total Animals Spotted": 9
+        },
+        {
+            "Year": 2009,
+            "Total Animals Spotted": 2
+        }
+    ],
+    "layers": [
+        {
+            "Year": 1998,
+            "Eastern Wormsnake": 1
+        },
+        {
+            "Year": 1999,
+            "Northern Ring-necked Snake": 2,
+            "Eastern Wormsnake": 2,
+            "Northern Black Racer": 2,
+            "Northern Copperhead": 16
+        },
+        {
+            "Year": 2000,
+            "Northern Ring-necked Snake": 8,
+            "Eastern Wormsnake": 7,
+            "Northern Black Racer": 10,
+            "Northern Copperhead": 11
+        },
+        {
+            "Year": 2001,
+            "Northern Ring-necked Snake": 14,
+            "Eastern Wormsnake": 10,
+            "Northern Black Racer": 19,
+            "Northern Copperhead": 16
+        },
+        {
+            "Year": 2002,
+            "Northern Ring-necked Snake": 27,
+            "Eastern Wormsnake": 12,
+            "Northern Black Racer": 32,
+            "Northern Copperhead": 37
+        },
+        {
+            "Year": 2003,
+            "Northern Ring-necked Snake": 31,
+            "Eastern Wormsnake": 15,
+            "Northern Black Racer": 45,
+            "Northern Copperhead": 49
+        },
+        {
+            "Year": 2004,
+            "Northern Ring-necked Snake": 4,
+            "Eastern Wormsnake": 2,
+            "Northern Black Racer": 4,
+            "Northern Copperhead": 10
+        },
+        {
+            "Year": 2005,
+            "Northern Ring-necked Snake": 1
+        },
+        {
+            "Year": 2006,
+            "Northern Ring-necked Snake": 1,
+            "Northern Copperhead": 2
+        },
+        {
+            "Year": 2007,
+            "Northern Ring-necked Snake": 2,
+            "Eastern Wormsnake": 3,
+            "Northern Black Racer": 2,
+            "Northern Copperhead": 4
+        },
+        {
+            "Year": 2008,
+            "Northern Ring-necked Snake": 1,
+            "Eastern Wormsnake": 4,
+            "Northern Copperhead": 4
+        },
+        {
+            "Year": 2009,
+            "Northern Copperhead": 2
+        }
+    ]
+}

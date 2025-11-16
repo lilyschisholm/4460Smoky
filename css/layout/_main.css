@@ -1,0 +1,17 @@
+.content-section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 1rem;
+}
+
+.content-section h2 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content-section p {
+    text-align: justify;
+    color: #333;
+    font-size: 1rem;
+}

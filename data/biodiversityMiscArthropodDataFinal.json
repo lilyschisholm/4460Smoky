@@ -1,0 +1,75 @@
+{
+    "years": [
+        {
+            "Year": 1994,
+            "Total Animals Spotted": 11
+        },
+        {
+            "Year": 1995,
+            "Total Animals Spotted": 4
+        },
+        {
+            "Year": 1996,
+            "Total Animals Spotted": 5
+        },
+        {
+            "Year": 1999,
+            "Total Animals Spotted": 14
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 10
+        },
+        {
+            "Year": 2010,
+            "Total Animals Spotted": 13
+        },
+        {
+            "Year": 2012,
+            "Total Animals Spotted": 8
+        },
+        {
+            "Year": 2013,
+            "Total Animals Spotted": 62
+        }
+    ],
+    "layers": [
+        {
+            "Year": 1994,
+            "Crayfish": 5,
+            "Appalachian Brook Crayfish": 6
+        },
+        {
+            "Year": 1995,
+            "Crayfish": 2,
+            "Appalachian Brook Crayfish": 2
+        },
+        {
+            "Year": 1996,
+            "Appalachian Brook Crayfish": 5
+        },
+        {
+            "Year": 1999,
+            "Crayfish": 3,
+            "Appalachian Brook Crayfish": 11
+        },
+        {
+            "Year": 2004,
+            "Appalachian Brook Crayfish": 10
+        },
+        {
+            "Year": 2010,
+            "Crayfish": 4,
+            "Appalachian Brook Crayfish": 9
+        },
+        {
+            "Year": 2012,
+            "Appalachian Brook Crayfish": 8
+        },
+        {
+            "Year": 2013,
+            "Crayfish": 15,
+            "Appalachian Brook Crayfish": 47
+        }
+    ]
+}

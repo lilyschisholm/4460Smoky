@@ -1,0 +1,184 @@
+{
+    "years": [
+        {
+            "Year": 1899,
+            "Total Animals Spotted": 9
+        },
+        {
+            "Year": 1936,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1938,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1949,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1950,
+            "Total Animals Spotted": 13
+        },
+        {
+            "Year": 1979,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 1981,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1982,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1983,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1994,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1995,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1998,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 1999,
+            "Total Animals Spotted": 29
+        },
+        {
+            "Year": 2000,
+            "Total Animals Spotted": 7
+        },
+        {
+            "Year": 2001,
+            "Total Animals Spotted": 7
+        },
+        {
+            "Year": 2002,
+            "Total Animals Spotted": 6
+        },
+        {
+            "Year": 2003,
+            "Total Animals Spotted": 24
+        },
+        {
+            "Year": 2004,
+            "Total Animals Spotted": 2
+        },
+        {
+            "Year": 2005,
+            "Total Animals Spotted": 1
+        },
+        {
+            "Year": 2006,
+            "Total Animals Spotted": 6
+        },
+        {
+            "Year": 2010,
+            "Total Animals Spotted": 7
+        }
+    ],
+    "layers": [
+        {
+            "Year": 1899,
+            "Unspecified": 5,
+            "Brainy Slime Mold": 4
+        },
+        {
+            "Year": 1936,
+            "Unspecified": 1
+        },
+        {
+            "Year": 1938,
+            "Brainy Slime Mold": 1
+        },
+        {
+            "Year": 1949,
+            "Unspecified": 1
+        },
+        {
+            "Year": 1950,
+            "Unspecified": 6,
+            "Brainy Slime Mold": 7
+        },
+        {
+            "Year": 1979,
+            "Unspecified": 1,
+            "Brainy Slime Mold": 1
+        },
+        {
+            "Year": 1981,
+            "Unspecified": 1
+        },
+        {
+            "Year": 1982,
+            "Brainy Slime Mold": 1
+        },
+        {
+            "Year": 1983,
+            "Brainy Slime Mold": 1
+        },
+        {
+            "Year": 1994,
+            "Unspecified": 1
+        },
+        {
+            "Year": 1995,
+            "Brainy Slime Mold": 1
+        },
+        {
+            "Year": 1998,
+            "Unspecified": 1
+        },
+        {
+            "Year": 1999,
+            "Unspecified": 9,
+            "Brainy Slime Mold": 20
+        },
+        {
+            "Year": 2000,
+            "Unspecified": 6,
+            "Brainy Slime Mold": 1
+        },
+        {
+            "Year": 2001,
+            "Unspecified": 3,
+            "Brainy Slime Mold": 4
+        },
+        {
+            "Year": 2002,
+            "Unspecified": 2,
+            "Brainy Slime Mold": 4
+        },
+        {
+            "Year": 2003,
+            "Unspecified": 16,
+            "Brainy Slime Mold": 8
+        },
+        {
+            "Year": 2004,
+            "Unspecified": 1,
+            "Brainy Slime Mold": 1
+        },
+        {
+            "Year": 2005,
+            "Brainy Slime Mold": 1
+        },
+        {
+            "Year": 2006,
+            "Unspecified": 4,
+            "Brainy Slime Mold": 2
+        },
+        {
+            "Year": 2010,
+            "Brainy Slime Mold": 7
+        }
+    ]
+}
