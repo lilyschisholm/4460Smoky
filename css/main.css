@@ -1,20 +1,19 @@
 
-@import "base/_typography.css";
+@import "./base/_typography.css";
 
-@import "layout/_header.css";
-@import "layout/_footer.css";
-@import "layout/_main.css";
+@import "./layout/_header.css";
+@import "./layout/_footer.css";
+@import "./layout/_main.css";
 
-@import "components/_charts.css";
-@import "components/_interpretation.css";
-@import "components/_narrative.css";
-@import "components/scrollToTopBtn.css";
-@import "components/fish.css";
+@import "./components/_charts.css";
+@import "./components/_interpretation.css";
+@import "./components/_narrative.css";
+@import "./components/scrollToTopBtn.css";
 
 /* Sections */
-@import "sections/_intro.css";
-@import "sections/_visibility.css"; 
-@import "sections/_water.css";
+@import "./sections/_intro.css";
+@import "./sections/_visibility.css"; 
+@import "./sections/_water.css";
 
 
 html {
