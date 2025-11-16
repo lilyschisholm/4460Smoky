@@ -11,7 +11,7 @@ function createParksComparison() {
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    d3.csv("data/parksData.csv").then(function(data) {
+    d3.csv("./data/parksData.csv").then(function(data) {
         data.sort((a, b) => b.speciesTotal - a.speciesTotal);
 
         const x = d3.scaleLinear()

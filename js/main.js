@@ -13,11 +13,11 @@ function loadData(taxaGroup) {
         `biodiversity${taxaGroup.charAt(0).toUpperCase() + taxaGroup.slice(1)}DataFinal.json`;
 
     Promise.all([
-        d3.csv("data/visibility.csv"),
-        d3.csv("data/visits.csv"),
-        d3.csv("data/airQualityData.csv"),
-        d3.csv("data/waterResults.csv"),
-        d3.json(`data/${fileName}`)
+        d3.csv("./data/visibility.csv"),
+        d3.csv("./data/visits.csv"),
+        d3.csv("./data/airQualityData.csv"),
+        d3.csv("./data/waterResults.csv"),
+        d3.json(`./data/${fileName}`)
     ])
     .then(([visRows, visitRows, airRows, waterRows, biodiversityData]) => {
         let preparedData = prepareData(biodiversityData);
